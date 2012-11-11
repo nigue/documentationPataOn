@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.10.6)  11 NOV 2012 17:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.10.6)  11 NOV 2012 18:25
 entering extended mode
  %&-line parsing enabled.
 **documento.tex
@@ -521,19 +521,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./documento.aux) ) 
 Here is how much of TeX's memory you used:
- 1831 strings out of 493848
- 24013 string characters out of 1152823
- 68656 words of memory out of 3000000
- 5111 multiletter control sequences out of 15000+50000
+ 1832 strings out of 493848
+ 24036 string characters out of 1152823
+ 71656 words of memory out of 3000000
+ 5112 multiletter control sequences out of 15000+50000
  24932 words of font info for 23 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 36i,6n,32p,233b,204s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,6n,32p,240b,213s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/s
 hare/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texmf/fonts/enc/dvips/
 tex-gyre/q-ts1.enc}</usr/share/texmf/fonts/type1/public/tex-gyre/qplb.pfb></usr
 /share/texmf/fonts/type1/public/tex-gyre/qplr.pfb></usr/share/texmf/fonts/type1
 /public/tex-gyre/qplri.pfb>
-Output written on documento.pdf (1 page, 63434 bytes).
+Output written on documento.pdf (1 page, 77954 bytes).
 PDF statistics:
  22 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
