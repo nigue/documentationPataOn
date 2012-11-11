@@ -1,0 +1,78 @@
+% resume.tex
+% vim:set ft=tex spell:
+
+\documentclass[10pt,letterpaper]{article}
+\usepackage[letterpaper,margin=0.75in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{mdwlist}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{tgpagella}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0em}
+
+% indentsection style, used for sections that aren't already in lists
+% that need indentation to the level of all text in the document
+\newenvironment{indentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% opposite of above; bump a section back toward the left margin
+\newenvironment{unindentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{-0.5#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% format two pieces of text, one left aligned and one right aligned
+\newcommand{\headerrow}[2]
+{\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+	#1 &
+	#2 \\
+\end{tabular*}}
+
+% make "C++" look pretty when used in text by touching up the plus signs
+\newcommand{\CPP}
+{C\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf ++}}
+
+% and the actual content starts here
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{Documentación Alpha PataOn}}
+
+999 E Wacker Drive\ \ \textbullet
+\ \ Oficina\ 1001\ \ \textbullet
+\ \ Santiago, 2012
+\\
+(999) 999-9999\ \ \textbullet
+\ \ test@example.com
+\end{center}
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Ideas}
+
+\begin{itemize}
+	\parskip=0.1em
+
+	\item
+	\headerrow
+		{\textbf{AAAAAAAAAAAAAAAAAAAAAA}}
+		{\textbf{aaaaaaaaa}}
+	\\
+	\headerrow
+		{\emph{AAAAAAAAAAAAAAAAAAAAAA}}
+		{\emph{99999999999}}
+	\begin{itemize*}
+		\item Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+		diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+		erat volutpat.
+	\end{itemize*}
+
+\end{itemize}
+\end{document}
